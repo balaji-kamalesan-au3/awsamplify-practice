@@ -1,0 +1,16 @@
+{
+  "name": "aws-practice",
+  "version": "1.0.0",
+  "description": "Practice AWS",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd backend && node index.js ",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Balaji Kamalesan",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
